@@ -15,6 +15,7 @@
 		FE0DAA5821306116009D83D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0DAA5621306116009D83D8 /* LaunchScreen.storyboard */; };
 		FE0DAA6321306118009D83D8 /* CoreDataExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0DAA6221306118009D83D8 /* CoreDataExampleTests.swift */; };
 		FE0DAA6E21306119009D83D8 /* CoreDataExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0DAA6D21306119009D83D8 /* CoreDataExampleUITests.swift */; };
+		FE0DAA822130678D009D83D8 /* itemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0DAA812130678D009D83D8 /* itemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FE0DAA6921306118009D83D8 /* CoreDataExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0DAA6D21306119009D83D8 /* CoreDataExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataExampleUITests.swift; sourceTree = "<group>"; };
 		FE0DAA6F21306119009D83D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0DAA812130678D009D83D8 /* itemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FE0DAA5621306116009D83D8 /* LaunchScreen.storyboard */,
 				FE0DAA5921306116009D83D8 /* Info.plist */,
 				FE0DAA5121306116009D83D8 /* CoreDataExample.xcdatamodeld */,
+				FE0DAA812130678D009D83D8 /* itemCell.swift */,
 			);
 			path = CoreDataExample;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE0DAA822130678D009D83D8 /* itemCell.swift in Sources */,
 				FE0DAA4D21306115009D83D8 /* ViewController.swift in Sources */,
 				FE0DAA4B21306115009D83D8 /* AppDelegate.swift in Sources */,
 				FE0DAA5321306116009D83D8 /* CoreDataExample.xcdatamodeld in Sources */,
@@ -433,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z9DQ727BSH;
 				INFOPLIST_FILE = CoreDataExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mem.CoreDataExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z9DQ727BSH;
 				INFOPLIST_FILE = CoreDataExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mem.CoreDataExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
